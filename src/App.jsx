@@ -7,6 +7,7 @@ import StateLiftUp from './components/StateLiftingUp/StateLiftUp'
 import UseMemo from './components/UseMemo'
 import UseRef from './components/UseRef'
 import HOC from './components/HOC'
+import ForwardRef from './components/ForwardRef/ForwardRef'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,8 @@ function App() {
       {/* <StateLiftUp /> */}
       {/* <UseMemo /> */}
       {/* <UseRef /> */}
-      <HOC />
+      {/* <HOC /> */}
+      <ForwardRef />
     </>
   )
 }
