@@ -6,6 +6,7 @@ import HideShowModule from './components/HideShowModule'
 import StateLiftUp from './components/StateLiftingUp/StateLiftUp'
 import UseMemo from './components/UseMemo'
 import UseRef from './components/UseRef'
+import HOC from './components/HOC'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +16,8 @@ function App() {
       {/* <HideShowModule /> */}
       {/* <StateLiftUp /> */}
       {/* <UseMemo /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <HOC />
     </>
   )
 }
